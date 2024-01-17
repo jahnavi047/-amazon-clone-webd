@@ -1,1 +1,1 @@
-# -amazon-clone-webd
+# -amazon-clone
