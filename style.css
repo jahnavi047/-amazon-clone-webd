@@ -122,35 +122,41 @@ span{
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-evenly;
-}
-
-.panel-ops p{
-    display: inline;
-    font-family: Arial;
-    margin-left: 15px;
+    justify-content:space-evenly;
 }
 
 .panel-ops{
     width: 80%;  
      font-size: 0.95rem;
+    display: flex;
+    
 }
 
-.panel-deals{
-    font-size: 1rem;
-    font-weight: 700;
+.panel-ops p{
+    display: inline;
+    font-family: Arial;
+    margin-right: 15px;
+   transition: background-color 0.3s, width 0.3s;
 }
+.panel-ops p:hover {
+    width: 100%; 
+    box-sizing: border-box; 
+    border: 1.5px solid white;
+
+}
+
 
 /**HERO SECTION**/
 
 .hero-section{
-    background-image:url("Republic sale.jpg");
+    background-image:url("amz\ valentine.jpg");
     background-size:cover;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
+
 .hero-msg{
         background-color: white;
     color: black;
@@ -185,8 +191,11 @@ span{
 }
 
 .box-img{
-    height: 300px;
+    height: 330px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
 
 }
 
